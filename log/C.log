@@ -1,5 +1,22 @@
+Progress
+1. Learned to netstat
+2. Learned to use X11
 
+1-->
+netstat -lvn|more
 
-
-cmd:
-netstat lvn|more
+2-->
+Here i want a GUI when i ssl into a linux machine
+but first in linux machine i hv to do some setup
+Firstly start sshd
+$ sudo systemctl enable sshd.service
+$ sudo systemctl start  sshd.service
+Secondly need to edit a sshd config file
+$ sudo nano /etc/ssh/sshd_config
+add  line at the end
+	X11Forwarding yes
+you can also find this above and uncomment
+and edit it to 'yes'
+http://www.tomsitpro.com/articles/how-to-use-x11-forwarding,2-843.html
+Please recomment it after u are done as it
+is a vuneribility

@@ -2,7 +2,7 @@ Progress so far
 1. Learned to use the ssl to connect to another linux machine
 2. Learned to setup offline repositories
 3. Learned to setup online repositories
-
+4. Make a user (Optional)
 
 1--->
 The general format is sshd clonejaro@192.168.56.103
@@ -27,8 +27,15 @@ git branch MyBranch
 git checkout master
 git stash
 
+
 3-->
 For the online make sure u have net connection
 also the command is quite simple
 git clone http://****
 and more
+
+4-->
+Setting up user means u can record who updated 
+what
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
