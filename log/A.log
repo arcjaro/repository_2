@@ -3,6 +3,7 @@ Progress so far
 2. Learned to setup offline repositories
 3. Learned to setup online repositories
 4. Make a user (Optional)
+5. Learned to push without password(using SSH)
 
 1--->
 The general format is sshd clonejaro@192.168.56.103
@@ -39,3 +40,10 @@ Setting up user means u can record who updated
 what
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+
+5-->
+When I try to push to or pull from Github using my PC,
+it requires username and password which can be fixed
+by using  (SSH) instead of HTTPS
+$ git remote set-url origin git@github.com:username/repo.git
+http://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
