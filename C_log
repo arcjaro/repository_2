@@ -1,0 +1,5 @@
+
+
+
+cmd:
+netstat lvn|more
