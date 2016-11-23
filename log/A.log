@@ -47,3 +47,4 @@ it requires username and password which can be fixed
 by using  (SSH) instead of HTTPS
 $ git remote set-url origin git@github.com:username/repo.git
 http://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
+DID NOT WORK

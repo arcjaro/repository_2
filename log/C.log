@@ -1,24 +1,40 @@
 Progress
 1. Learned to netstat
-2. Learned to use X11
+2. Learned to use X11 for putty
+3. Learned to use Remote Destop to Linux from Windows
+4. Learned to use Arc User Repository for install
 
+Presquisit:
+a. Use 1 physical windows and 1 virtual linux
+b. Use Bridge connection for Vbox
+
+Description:
 1-->
 netstat -lvn|more
 
 2-->
 Here i want a GUI when i ssl into a linux machine
-but first in linux machine i hv to do some setup
-and download putty and XLaunch and Xming and 
-Xming-fonts-7-7-0-10-setup.
+using putty but first in linux machine i hv to do 
+some setup and download putty and XLaunch and Xming 
+and Xming-fonts-7-7-0-10-setup.
 Firstly start sshd
 $ sudo systemctl enable sshd.service
 $ sudo systemctl start  sshd.service
 Secondly need to edit a sshd config file
 $ sudo nano /etc/ssh/sshd_config
-add  line at the end
-	X11Forwarding yes
+add  line at the end::>
+ X11Forwarding yes
 you can also find this above and uncomment
 and edit it to 'yes'
 http://www.tomsitpro.com/articles/how-to-use-x11-forwarding,2-843.html
 Please recomment it after u are done as it
 is a vuneribility
+
+3-->
+Get xrdp for arc linux 
+use $ sudo xrdp to start
+use $ sudo vncserver
+
+4-->
+just type '$ sudo yaourt' then the name of the package
+
