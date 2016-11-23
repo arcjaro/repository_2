@@ -8,6 +8,8 @@ netstat -lvn|more
 2-->
 Here i want a GUI when i ssl into a linux machine
 but first in linux machine i hv to do some setup
+and download putty and XLaunch and Xming and 
+Xming-fonts-7-7-0-10-setup.
 Firstly start sshd
 $ sudo systemctl enable sshd.service
 $ sudo systemctl start  sshd.service
