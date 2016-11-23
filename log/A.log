@@ -1,0 +1,34 @@
+Progress so far
+1. Learned to use the ssl to connect to another linux machine
+2. Learned to setup offline repositories
+3. Learned to setup online repositories
+
+
+1--->
+The general format is sshd clonejaro@192.168.56.103
+But first u have to start the sshd services every time u reboot
+sudo systemctl enable sshd.service
+sudo systemctl start sshd.service
+
+2-->
+For offline u dont even need an online account
+jst make a folder then go inside and run
+git init
+to setup the folder
+For list of file to exclude from syncing use .gitignore
+Other command are
+git add .
+git add repository
+git commit -m 'Saving data'
+git commit -a -m 'For upadate of new file'
+Next Up
+Brancing which has 
+git branch MyBranch
+git checkout master
+git stash
+
+3-->
+For the online make sure u have net connection
+also the command is quite simple
+git clone http://****
+and more

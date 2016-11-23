@@ -1,0 +1,22 @@
+!/bin/bash
+# This will configure the connection 
+# for ssl in manjaro
+# ~H.M
+
+sudo -s
+systemctl enable sshd.service
+systemctl start  sshd.service
+exit
+
+# Section  A---------->
+# Remember to use HostAdapter Option in Vbox->Network
+# Section  B---------->
+# https://www.youtube.com/watch?v=DbPDraCYju8
+# rsync --for copying file
+# ssh	--for direct access ssh clonejaro@192.168.56.103
+# Section  C---------->
+# Learn to use private and public key instead of password
+# https://www.youtube.com/watch?v=DbPDraCYju8
+# Section  D---------->
+# scp B_ssl_startup  clonejaro@192.168.56.103:~/Documents/script
+

@@ -1,0 +1,11 @@
+!/bin/bash
+
+# This Program has 2 parameter 
+# it copy $1 to folder $2
+# and saves it acording to date
+#------------------------------
+date_formatted=$(date +%m_%d_%y-%H_%M_%S)
+echo "New File created:  " $date_formatted
+cp  $1 $2_$date_formatted
+
+

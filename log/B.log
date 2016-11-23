@@ -1,0 +1,16 @@
+Progress
+1. Learned remote access
+2. Learned to link clone
+
+1-->
+Remote access  require firewall disable,
+enable remote access checked, the vbox
+remote display checked, internal network,
+ping can be used first to chk connection
+https://www.youtube.com/watch?v=Aoy6yddijR8
+
+2-->
+Clone is better as it doesnt need addition
+al hard disk, as it shares the hardrive,
+perfect if u require more dummy machine to
+simulate multiple devices
